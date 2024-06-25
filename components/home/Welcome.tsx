@@ -2,7 +2,7 @@ import { LuMoveRight } from "react-icons/lu";
 
 const Welcome = () => {
   return (
-    <section className="w-full md:w-2/3 xl:w-1/3 mx-auto p-4 md:p-0">
+    <section className="contain w-full md:w-2/3 xl:w-1/3 mx-auto p-4 md:p-0">
       <h1 className="text-center text-white">
         Get your
         <span className="text-span">
@@ -19,7 +19,7 @@ const Welcome = () => {
       <br />
       <a
         href="mailto:Emmanuelotitoola@gmail.com"
-        target="blank"
+        target="_blank"
         className="w-[60%] mx-auto"
       >
         <button className="w-full bg-[var(--orange)] p-4 rounded-[2rem] text-[#454545] flex items-center justify-between gap-4">

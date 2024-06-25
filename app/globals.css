@@ -37,6 +37,6 @@
   }
 
   .spacer {
-    @apply h-6;
+    @apply h-6 md:h-10;
   }
 }
