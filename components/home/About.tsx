@@ -1,5 +1,7 @@
+'use client'
 import React from "react";
 import Process from "./Process";
+import RecentWorks from "./RecentWorks";
 
 const About = () => {
   return (
@@ -34,6 +36,9 @@ const About = () => {
       </div>
       <br /> <br />
       <Process />
+      <br />
+      <br />
+      <RecentWorks />
     </section>
   );
 };
