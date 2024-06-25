@@ -7,14 +7,10 @@
   --orange: #FFBA69;
 }
 
-
-
-body {
-  color: rgb(var(--black));
-  
-}
-
 @layer utilities {
+  body {
+    @apply bg-[var(--black)] text-white
+  }
   .text-span {
     @apply text-[var(--orange)]
   }
