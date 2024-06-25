@@ -4,17 +4,39 @@
 
 :root {
   --black: #181819;
-  --orange: #FFBA69;
+  --orange: #ffba69;
+  --text: #979797;
 }
 
 @layer utilities {
   body {
-    @apply bg-[var(--black)] text-white
+    @apply bg-[var(--black)] text-[var(--text)];
   }
+
+  h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl md:leading-[1.2] font-bold;
+  }
+
+  h2 {
+    @apply text-2xl md:text-[2rem] md:leading-[1] font-semibold;
+  }
+
+  h3 {
+    @apply text-xl md:text-[1.75rem] md:leading-[0.8] font-medium;
+  }
+
+  h4 {
+    @apply text-lg md:text-[1.5rem] md:leading-[0.8] font-medium;
+  }
+
   .text-span {
-    @apply text-[var(--orange)]
+    @apply text-[var(--orange)];
   }
   .contain {
-    @apply w-[90%] m-auto
+    @apply w-[90%] m-auto;
+  }
+
+  .spacer {
+    @apply h-6;
   }
 }
