@@ -17,6 +17,8 @@ export default function Home() {
         </div>
       </div>
       <About />
+      <div className="spacer"></div>
+      <div className="spacer"></div>
     </main>
   );
 }

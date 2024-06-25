@@ -33,10 +33,11 @@
     @apply text-[var(--orange)];
   }
   .contain {
-    @apply w-[90%] m-auto;
+    @apply w-[90%] m-auto
   }
 
   .spacer {
     @apply h-6 md:h-10;
   }
 }
+

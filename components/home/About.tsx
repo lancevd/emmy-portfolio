@@ -1,4 +1,5 @@
 import React from "react";
+import Process from "./Process";
 
 const About = () => {
   return (
@@ -31,6 +32,8 @@ const About = () => {
           </p>
         </div>
       </div>
+      <br /> <br />
+      <Process />
     </section>
   );
 };
