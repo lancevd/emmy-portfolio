@@ -1,3 +1,4 @@
+import About from "@/components/home/About";
 import Navbar from "@/components/home/Navbar";
 import Welcome from "@/components/home/Welcome";
 
@@ -10,15 +11,12 @@ export default function Home() {
       <Welcome />
       <div className="spacer"></div>
       <div className="spacer"></div>
-      <div
-        className="contain w-[90%] mx-auto rounded-[2.5rem] overflow-hidden text-center"
-      >
-        <img
-          src="/images/mackup.png"
-          alt="mackup"
-          className="bg-white w-full"
-        />
+      <div className="contain">
+        <div className="bg-[#F6FCFF] w-[90%] mx-auto rounded-3xl overflow-hidden text-center">
+          <img src="/images/mackup.png" alt="mackup" className=" w-full" />
+        </div>
       </div>
+      <About />
     </main>
   );
 }
