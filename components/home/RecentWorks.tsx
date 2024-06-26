@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { LuMoveRight } from "react-icons/lu";
 
 const slides = [
   "/images/slide-1.png",
@@ -32,6 +33,17 @@ const RecentWorks = () => {
           ))}
         </div>
       </Marquee>
+      <br />
+      <a
+        href="https://dribbble.com/Otitoola"
+        target="_blank"
+        rel="noopener noreferrer"
+      className="mx-auto text-center w-fit flex justify-center items-center"
+      >
+        <button className="bg-[var(--orange)] p-4 rounded-[2rem] text-[#454545] flex items-center justify-between gap-12">
+          View portfolio <LuMoveRight />
+        </button>
+      </a>
     </div>
   );
 };
