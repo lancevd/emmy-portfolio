@@ -2,6 +2,7 @@
 import React from "react";
 import Process from "./Process";
 import RecentWorks from "./RecentWorks";
+import SelectedProjects from "./SelectedProjects";
 
 const About = () => {
   return (
@@ -39,6 +40,8 @@ const About = () => {
       <br />
       <br />
       <RecentWorks />
+      <br /><br />
+      <SelectedProjects />
     </section>
   );
 };
