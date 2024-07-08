@@ -13,12 +13,12 @@ const SelectedProjects = () => {
       <br />
       <br />
       <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
-        <div className="rounded-3xl col-span-1 lg:col-span-2 justify-items-end text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-2 justify-items-end text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
           <div className="w-full max-h-[80%] xl:min-h-[75%]">
             <img
               src="/images/selected-1.png"
               alt="Selected"
-              className="w-full"
+              className="w-full h-full"
             />
           </div>
           <br />
@@ -29,12 +29,12 @@ const SelectedProjects = () => {
             Solve all your electricity problem in one app
           </p>
         </div>
-        <div className="rounded-3xl col-span-1 lg:col-span-2 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-2 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
           <div className="w-full lg:max-h-[80%]">
             <img
               src="/images/selected-2.png"
               alt="Selected"
-              className="w-full"
+              className="w-full h-full"
             />
           </div>
           <br />
@@ -45,12 +45,12 @@ const SelectedProjects = () => {
             Making leads more accessible with design
           </p>
         </div>
-        <div className="rounded-3xl col-span-1 lg:col-span-2 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-2 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
           <div className="w-full max-h-[80%]">
             <img
               src="/images/selected-3.png"
               alt="Selected"
-              className="w-full"
+              className="w-full h-full"
             />
           </div>
           <br /> 
@@ -61,12 +61,12 @@ const SelectedProjects = () => {
             Easier Management of custom projects
           </p>
         </div>
-        <div className="rounded-3xl col-span-1 lg:col-span-3 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-3 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
           <div className="w-full h-[80%]">
             <img
               src="/images/selected-4.png"
               alt="Selected"
-              className="w-full"
+              className="w-full h-full"
             />
           </div>
           <br />
@@ -75,12 +75,12 @@ const SelectedProjects = () => {
             Management and distribution of quality leads
           </p>
         </div>
-        <div className="rounded-3xl col-span-1 lg:col-span-3 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-3 text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
           <div className="w-full h-[80%]">
             <img
               src="/images/selected-5.png"
               alt="Selected"
-              className="w-full"
+              className="w-full h-full"
             />
           </div>
           <br />
