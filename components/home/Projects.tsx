@@ -21,18 +21,48 @@ const Projects = () => {
       </div>
       <br />
       <br />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:grid-rows-4">
-        <div className="rounded-lg lg:col-span-1 md:row-span-2 overflow-hidden">
-          <img src="/images/project-1.png" alt="project" className="w-full" />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:grid-rows-4">
+        <div className="rounded-lg lg:col-[1/2] lg:row-[1/3] overflow-hidden">
+          <img
+            src="/images/project-1.png"
+            alt="project"
+            className="w-full h-full"
+          />
         </div>
-        <div className="rounded-lg lg:col-span-1 md:row-span-3 overflow-hidden">
-          <img src="/images/project-2.png" alt="project" className="w-full" />
+        <div className="rounded-lg lg:col-[2/3] lg:row-[1/4] overflow-hidden">
+          <img
+            src="/images/project-2.png"
+            alt="project"
+            className="w-full h-full"
+          />
         </div>
-        <div className="rounded-lg lg:col-span-1 md:row-span-2 overflow-hidden">
-          <img src="/images/project-3.png" alt="project" className="w-full" />
+        <div className="rounded-lg lg:col-span-1 lg:row-span-2 overflow-hidden">
+          <img
+            src="/images/project-3.png"
+            alt="project"
+            className="w-full h-full"
+          />
         </div>
-        <div className="rounded-lg lg:col-span-1 md:row-span-2 overflow-hidden">
-          <img src="/images/project-1.png" alt="project" className="w-full" />
+        <div className="rounded-lg lg:col-[1/2] lg:row-[3/4] overflow-hidden">
+          <img
+            src="/images/project-4.png"
+            alt="project"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="rounded-lg lg:col-[3/4] lg:row-[3/5] overflow-hidden">
+          <img
+            src="/images/project-6.png"
+            alt="project"
+            className="w-full h-full"
+          />
+        </div>
+        <div className="rounded-lg lg:col-[1/3] lg:row-[4/5] overflow-hidden">
+          <img
+            src="/images/project-5.png"
+            alt="project"
+            className="w-full h-full"
+          />
         </div>
       </div>
     </section>
