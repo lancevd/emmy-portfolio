@@ -5,6 +5,7 @@ import Welcome from "@/components/home/Welcome";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Projects from "@/components/home/Projects";
 
 export default function Home() {
   useEffect(() => {
@@ -27,6 +28,7 @@ export default function Home() {
       <About />
       <div className="spacer"></div>
       <div className="spacer"></div>
+      <Projects/>
     </main>
   );
 }
