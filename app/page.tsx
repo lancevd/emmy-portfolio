@@ -1,6 +1,6 @@
 "use client";
 import About from "@/components/home/About";
-import Navbar from "@/components/home/Navbar";
+import Navbar from "@/components/Navbar";
 import Welcome from "@/components/home/Welcome";
 import React, { useEffect } from "react";
 import AOS from "aos";
