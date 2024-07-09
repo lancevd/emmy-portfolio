@@ -1,4 +1,5 @@
 "use client";
+import Spinner from "@/components/Spinner";
 import ProjectCard from "@/components/works/ProjectCard";
 import React, { useEffect, useState } from "react";
 import { LuMoveRight } from "react-icons/lu";
@@ -65,7 +66,7 @@ const Page: React.FC = () => {
       <div className="spacer"></div>
       <div className="spacer"></div>
       {loading ? (
-        <p className="text-center">Loading...</p>
+        <p className="text-center"> <Spinner /> </p>
       ) : (
         projects.map((project, index: number) => (
           <ProjectCard
