@@ -28,11 +28,12 @@ const ProjectCard: React.FC<Project> = ({
     AOS.init();
     AOS.refresh();
   }, []);
+
   return (
     <Link
       href={`/works/${slug}`}
       className="border rounded transition-all duration-700 my-4 md:pt-6 md:pr-6 hover:p-0 flex flex-col-reverse items-center cursor-pointer md:flex-row"
-      data-aos="fade-up"
+    //   data-aos="fade-up"
     >
       <div className="w-full md:w-1/2 lg:w-2/5 px-3 md:px-3 py-4">
         <div className={`flex gap-4 items-center p-1 py-4`}>

@@ -35,6 +35,39 @@ const projects: Project[] = [
     skills: ["ui/ux", "design systems", "invoice"],
     bg: "",
   },
+  {
+    id: 3,
+    name: "Lead Redesign",
+    slug: "leads-app-redesign",
+    logo: "/images/leads-hook.png",
+    description:
+      "A user-firendly design to show how decision tree are performing and get insight into leads impression.",
+    image: "/images/leads-hooks.png",
+    skills: ["ui/ux", "redesign", "interaction", "marketing"],
+    bg: "",
+  },
+  {
+    id: 4,
+    name: "Bare Mind",
+    slug: "bare-mind",
+    logo: "/images/bm.png",
+    description:
+      "Helping people overcome their limiting minds by offering personalized self-development programs for optimal mental well-being.",
+    image: "/images/baremind.png",
+    skills: ["landing page design", "ui/ux", "mental health", "interaction"],
+    bg: "#09CF82",
+  },
+  {
+    id: 5,
+    name: "Bare Mind",
+    slug: "custom-project",
+    logo: "/images/leads-hook.png",
+    description:
+      "Simplifying the  management fo custom projects that better serves the needs of the customer and the company.",
+    image: "/images/custom-project.png",
+    skills: ["ui/ux", "project management", "interaction", "style guides"],
+    bg: "",
+  },
 ];
 
 export async function GET() {

@@ -1,7 +1,5 @@
 "use client";
 import ProjectCard from "@/components/works/ProjectCard";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
 import { LuMoveRight } from "react-icons/lu";
 
@@ -40,11 +38,6 @@ const Page: React.FC = () => {
       setLoading(false);
     }
   };
-
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
 
   return (
     <main className="contain my-6">
