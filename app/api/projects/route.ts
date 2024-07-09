@@ -9,7 +9,7 @@ interface Project {
   description: string;
   image: string;
   skills: string[];
-  bg: string
+  bg: string;
 }
 
 const projects: Project[] = [
@@ -20,20 +20,20 @@ const projects: Project[] = [
     logo: "/images/mojec-logo.png",
     description:
       "Resolve all electricity problems in one app, from buying meter, paying for electricity and getting a qualified technician for your light issues.",
-    image: "https://via.placeholder.com/150",
+    image: "/images/mojec.png",
     skills: ["mobile design", "ux", "style guides", "interaction"],
-    bg: "#7A97E6",
+    bg: "#1D457C",
   },
   {
     id: 2,
     name: "Leadsbuffet",
     slug: "leadsbuffet",
-    logo: "/images/mojec-logo.png",
+    logo: "/images/LB.png",
     description:
       "LeadsBuffet is a Lead Distribution System designed to manage and distribute leads acquired from various sources including LeadsHook.",
-    image: "https://via.placeholder.com/150",
+    image: "/images/Dashboard.png",
     skills: ["ui/ux", "design systems", "invoice"],
-    bg: "#7A97E6",
+    bg: "",
   },
 ];
 

@@ -31,9 +31,8 @@ const Page: React.FC = () => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-      console.log("Response received:", response);
       const data: Project[] = await response.json();
-      console.log(data);
+      // console.log(data);
       setProjects(data);
     } catch (error) {
       console.error("Failed to fetch projects:", error);
@@ -48,7 +47,7 @@ const Page: React.FC = () => {
   }, []);
 
   return (
-    <main className="contain">
+    <main className="contain my-6">
       <div className="flex gap-4 flex-col lg:flex-row">
         <div data-aos="slide-right" className="w-full lg:w-1/3">
           <h2 className="text-white">My Works</h2>
