@@ -1,12 +1,10 @@
 "use client";
 import About from "@/components/home/About";
-import Navbar from "@/components/Navbar";
 import Welcome from "@/components/home/Welcome";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "@/components/home/Projects";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -14,8 +12,8 @@ export default function Home() {
     AOS.refresh()
   });
   return (
-    <main className="py-6 md:py-12">
-      <Navbar />
+    <main className="">
+      {/* <Navbar /> */}
       <br />
       <div className="spacer"></div>
       <Welcome />
@@ -36,7 +34,7 @@ export default function Home() {
       <Projects />
       <div className="spacer"></div>
       <div className="spacer"></div>
-      <Footer/>
+      {/* <Footer/> */}
     </main>
   );
 }
