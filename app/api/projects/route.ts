@@ -59,7 +59,7 @@ const projects: Project[] = [
   },
   {
     id: 5,
-    name: "Bare Mind",
+    name: "Custom Project Portal",
     slug: "custom-project",
     logo: "/images/leads-hook.png",
     description:
