@@ -23,7 +23,7 @@ const ProjectCard: React.FC<Project> = ({
 }) => {
   return (
     <Link
-      href={`/works/${slug}`}
+      href={`/works/${slug}?project=${id}`}
       className="border rounded-md overflow-hidden transition-all duration-700 my-4 md:pt-8 md:pr-8 hover:p-0 flex flex-col-reverse items-center cursor-pointer md:flex-row"
     >
       <div className="w-full md:w-1/2 lg:w-2/5 px-3 md:px-3 py-4">

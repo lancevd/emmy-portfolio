@@ -8,8 +8,8 @@ const menu = ([] = [
     target: "",
   },
   {
-    name: "Work",
-    link: "/work",
+    name: "Works",
+    link: "/works",
     target: "",
   },
   {

@@ -10,6 +10,7 @@ interface Project {
   image: string;
   skills: string[];
   bg: string;
+  content: string;
 }
 
 const projects: Project[] = [
@@ -23,6 +24,7 @@ const projects: Project[] = [
     image: "/images/mojec.png",
     skills: ["mobile design", "ux", "style guides", "interaction"],
     bg: "#1D457C",
+    content: ""
   },
   {
     id: 2,
@@ -34,6 +36,7 @@ const projects: Project[] = [
     image: "/images/Dashboard.png",
     skills: ["ui/ux", "design systems", "invoice"],
     bg: "",
+    content: ""
   },
   {
     id: 3,
@@ -45,6 +48,7 @@ const projects: Project[] = [
     image: "/images/leads-hooks.png",
     skills: ["ui/ux", "redesign", "interaction", "marketing"],
     bg: "",
+    content: ""
   },
   {
     id: 4,
@@ -56,6 +60,7 @@ const projects: Project[] = [
     image: "/images/baremind.png",
     skills: ["landing page design", "ui/ux", "mental health", "interaction"],
     bg: "#09CF82",
+    content: ""
   },
   {
     id: 5,
@@ -67,6 +72,7 @@ const projects: Project[] = [
     image: "/images/custom-project.png",
     skills: ["ui/ux", "project management", "interaction", "style guides"],
     bg: "",
+    content: ""
   },
 ];
 

@@ -13,7 +13,7 @@ const SelectedProjects = () => {
       <br />
       <br />
       <div className="grid grid-cols-1 lg:grid-cols-6 gap-4">
-        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-2 justify-items-end text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer transition duration-500 ease-in-out">
+        <div className="rounded-3xl max-h-[50vh] col-span-1 lg:col-span-2 justify-items-end text-left bg-[#F1F1F1] pb-4 hover:bg-[#121E2B] hover:text-white cursor-pointer overflow-hidden transition duration-500 ease-in-out">
           <div className="w-full max-h-[80%] xl:min-h-[75%]">
             <img
               src="/images/selected-1.png"
