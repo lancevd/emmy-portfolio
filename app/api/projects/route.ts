@@ -63,7 +63,7 @@ const projects: Project[] = [
     slug: "custom-project",
     logo: "/images/leads-hook.png",
     description:
-      "Simplifying the  management fo custom projects that better serves the needs of the customer and the company.",
+      "Simplifying the  management for custom projects that better serves the needs of the customer and the company.",
     image: "/images/custom-project.png",
     skills: ["ui/ux", "project management", "interaction", "style guides"],
     bg: "",
