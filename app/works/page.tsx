@@ -3,6 +3,8 @@ import Spinner from "@/components/Spinner";
 import ProjectCard from "@/components/works/ProjectCard";
 import React, { useEffect, useState } from "react";
 import { LuMoveRight } from "react-icons/lu";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 interface Project {
   id: number;
@@ -21,6 +23,11 @@ const Page: React.FC = () => {
 
   useEffect(() => {
     fetchProjects();
+  }, []);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
   }, []);
 
   const fetchProjects = async () => {
@@ -66,22 +73,27 @@ const Page: React.FC = () => {
       <div className="spacer"></div>
       <div className="spacer"></div>
       {loading ? (
-        <p className="text-center"> <Spinner /> </p>
+        <p className="text-center">
+          <Spinner />
+        </p>
       ) : (
         projects.map((project, index: number) => (
-          <ProjectCard
-            key={project.id}
-            id={project.id}
-            name={project.name}
-            slug={project.slug}
-            logo={project.logo}
-            description={project.description}
-            image={project.image}
-            skills={project.skills}
-            background={project.bg}
-          />
+          <div data-aos="fade-up" key={project.id}>
+            <ProjectCard
+              id={project.id}
+              name={project.name}
+              slug={project.slug}
+              logo={project.logo}
+              description={project.description}
+              image={project.image}
+              skills={project.skills}
+              background={project.bg}
+            />
+          </div>
         ))
       )}
+      <div className="spacer"></div>
+      <div className="spacer"></div>
     </main>
   );
 };

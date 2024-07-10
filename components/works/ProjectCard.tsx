@@ -1,7 +1,4 @@
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import React, { useEffect, useState } from "react";
 
 interface Project {
   id: number;
@@ -24,16 +21,10 @@ const ProjectCard: React.FC<Project> = ({
   skills,
   background,
 }) => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
   return (
     <Link
       href={`/works/${slug}`}
-      className="border rounded transition-all duration-700 my-4 md:pt-6 md:pr-6 hover:p-0 flex flex-col-reverse items-center cursor-pointer md:flex-row"
-    //   data-aos="fade-up"
+      className="border rounded-md overflow-hidden transition-all duration-700 my-4 md:pt-8 md:pr-8 hover:p-0 flex flex-col-reverse items-center cursor-pointer md:flex-row"
     >
       <div className="w-full md:w-1/2 lg:w-2/5 px-3 md:px-3 py-4">
         <div className={`flex gap-4 items-center p-1 py-4`}>
@@ -57,7 +48,7 @@ const ProjectCard: React.FC<Project> = ({
         })}
       </div>
       <div
-        className={`md:pl-3 w-full bg-[#${background}] md:w-1/2 lg:w-3/5`}
+        className={`md:pl-3 w-full bg-[#${background}] rounded-md overflow-hidden md:w-1/2 lg:w-3/5`}
         style={{ background: background }}
       >
         <img src={image} alt={name} className="rounded-lg w-full" />
