@@ -6,10 +6,13 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Emmanuel | Product Designer",
   description:
     "Otitoola Emmanuel, experienced Product designer. UI/UX design, UX research, web and mobile designs.",
+  keywords:
+    "product designer, Designer, product design, UI designer, UI/UX designer, ",
+  favicon: "/images/emmanuel.png",
 };
 
 export default function RootLayout({
